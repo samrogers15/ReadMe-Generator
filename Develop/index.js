@@ -10,6 +10,7 @@ const questions = [
         type: 'input',
         name: 'name',
         message: 'What is your name friend?',
+        validate: (input) => !!input.length
     },
     {
         type: 'input',
