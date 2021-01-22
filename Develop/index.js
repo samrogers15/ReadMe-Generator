@@ -39,7 +39,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'info',
+        name: 'usage',
         message: 'Please enter in the necessary usage information.',
     },
     {
@@ -61,13 +61,17 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, 'utf8', (err) => console.log('Error in write file: ', err));
+};
 
 // TODO: Create a function to initialize app
 async function init() {
     const answers = await inquirer.prompt(questions);
     const markDown = generateMarkdown(answers);
-}
+    console.log('generated MarkDown: ', markDown);
+    writeToFile(answers.projectName + '_ReadMe.md', markDown);
+};
 
 // Function call to initialize app
 init();
