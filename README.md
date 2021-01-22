@@ -18,7 +18,7 @@ SO THAT I can quickly create a professional README for a new project
 This project was built using javascript and node functionality to enable the use of javascript in the command terminal.
 
 ## Video Link
-[Video-Example](https://drive.google.com/file/d/1-uybqVfDfduiMvu6JkNs8fbUQl9G80He/view)
+[Video Example](https://drive.google.com/file/d/1-uybqVfDfduiMvu6JkNs8fbUQl9G80He/view)
 
 ## Technologies
 * Javascript
@@ -32,6 +32,7 @@ This project uses NPM Inquirer (https://github.com/SBoudrias/Inquirer.js/)
 Created by Sam Rogers
 
 [LinkedIn](https://www.linkedin.com/in/samuelerogers/)
+
 [Portfolio](https://samrogers15.github.io/Current_Portfolio/index.html)
 
 Feel free to contact me!
